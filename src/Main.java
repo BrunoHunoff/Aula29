@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Funcionario f1 = new Funcionario("Bruno");
+        System.out.println(f1.nome);
     }
 }
